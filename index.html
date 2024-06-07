@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeschooling Checklist App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Homeschooling Checklist</h1>
+        <form id="taskForm">
+            <div class="task-input">
+                <div class="task-field">
+                    <input type="text" placeholder="Task 1">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 2">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 3">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 4">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 5">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 6">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 7">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 8">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 9">
+                    <input type="date">
+                </div>
+                <div class="task-field">
+                    <input type="text" placeholder="Task 10">
+                    <input type="date">
+                </div>
+            </div>
+            <button type="button" id="saveTasksBtn">Save Tasks</button>
+        </form>
+        <button type="button" id="printBtn">Print Checklist</button>
+        <table id="taskTable" border="1">
+            <thead>
+                <tr>
+                    <th style="width: 70%;">Task</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
